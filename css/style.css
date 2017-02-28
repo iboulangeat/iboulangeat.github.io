@@ -43,9 +43,15 @@ a:hover {
     color: #fff;
 }
 /*--social--*/
+.social-bg {
+    color: #fff;
+}
 .social {
     float: right;
-    padding: 0.8em 0 0;
+    /*padding: 0.8em 0 0;*/
+    display: inline-block;
+    /*margin: 0 3px;*/
+    color: #A0431B;
 }
 .social ul{
 	padding:0;
@@ -56,20 +62,21 @@ a:hover {
     margin: 0 3px;
 }
 .social ul li a.facebook{
-    background: url(../images/social.png) no-repeat 0px 0px; 
+/*    background: url(../images/social.png) no-repeat 0px 0px; 
     width: 32px;
     height: 32px;
-    display: block;
+    display: block;*/
 }
-.social ul li a.twitter{
+/*.social ul li a.twitter{
     background: url(../images/social.png) no-repeat -34px 0px ;
-}
-.social ul li a.chrome{
+}*/
+
+/*.social ul li a.chrome{
     background: url(../images/social.png) no-repeat -68px 0px ;
 }
 .social ul li a.in{
     background: url(../images/social.png) no-repeat -102px 0px ;
-}
+}*/
 .social ul li a.facebook:hover{
 	opacity:.5;
 }
@@ -89,7 +96,7 @@ div#navbar {
 }
 ul.nav.navbar-nav li a {
     font-size: 1.05em;
-    color: #a0431a;
+    color: #A0431B;
 	padding: 20px 67px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
