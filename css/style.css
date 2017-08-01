@@ -528,6 +528,11 @@ ul.captn2 {
   color: #767676;
   line-height: 1.8em;
 }
+.history-grids strong {
+	/*color:#2D661F;*/
+	text-decoration: underline;
+	font-weight: bold
+}
 /*--about end here--*/
 /*--short codes--*/
 .page-header h3 {
